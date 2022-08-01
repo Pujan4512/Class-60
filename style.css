@@ -1,0 +1,77 @@
+body{
+    text-align:center;
+    padding-top: 800px;
+    margin:0;
+}
+.profile{
+    border-radius:50%;
+}
+#mainSection{
+    position:absolute;
+    bottom:0;
+    display:table;
+    width:100%;
+    height:100%;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+}
+h1{
+    font-size:40px;
+    font-weight:300;
+    font-family: 'Edu QLD Beginner', cursive;
+}
+h2{
+    font-size:30px;
+    font-weight:300;
+    font-family: 'Edu QLD Beginner', cursive;
+}
+#name{
+    font-size:50px;
+    font-family: 'Dancing Script', cursive;
+}
+#bio{
+    padding:50px;
+    font-family: 'Roboto Mono', monospace;
+}
+.line{
+    background-color:black;
+    height:6px;
+    width: 70px;
+    margin:8px auto;
+}
+.parellax-inner{
+    display:table-cell;
+    vertical-align:middle;
+}
+.links{
+    display:inline;
+    padding-left:33px;
+    padding-right:35px;
+    font-size:20px;
+    font-family:'Edu QLD Beginner', cursive;
+}
+.menu{
+    margin-top:0px;
+    z-index:90;
+    position:fixed;
+    top:0px;
+    background-color: white;
+    cursor:pointer;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+#writing a{
+    text-decoration: underline !important;
+    color: aqua !important;
+}
+#contact{
+    background-color: red;
+}
+#contact iframe{
+    width:100%;
+}
+.contact_1 h3{
+    display: inline;
+}
+
